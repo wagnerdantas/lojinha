@@ -7,11 +7,15 @@ public class Produto {
     private double valor;
     private String tamanho;
     private String itensInclusos;
+
     public String getNome() {
         return nome;
     }
     //Constructor
-    public void Produto(){
+    public Produto(){
+
+    }
+    public Produto(String nome, String marca, double valor, String tamanho, String itensInclusos){
         this.nome = nome;
         this.marca = marca;
         this.valor = valor;

@@ -12,7 +12,6 @@ public class LojinhaApp {
         meuProduto.tamanho = "Médio";
         meuProduto.itensInclusos = "2 Controles e 1 Jogo";
 
-        System.out.println();
 
     }
 }
